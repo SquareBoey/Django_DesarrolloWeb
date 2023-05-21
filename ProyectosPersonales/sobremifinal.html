@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Biografia Jose Horacio
+        </title>
+        <link rel="stylesheet" href="estilopaginamia.css">
+    </head>
+
+<header>
+  <h1>Los Hobbies</h1>
+  <nav>
+    <ul>
+      <a href="pruebas_finales.html">Principal</a>
+      <a href="sobremifinal.html">Sobre mi</a>
+      <a href="contactofinal.html">Contacto</a>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+    <aside>
+      <h4>Noticias aparte</h4>
+      <p>La mayoria de sus hobbies son sedentarios</p>
+      <p>Aunque eso no significa que <br>
+    no busque actividades que requieran de movimiento</p>
+    </aside>
+  </div>
+
+<body>
+    <h1>Sobre Mi</h1>
+    <p>Bienvenido a la pagina de sobre mi , donde aprenderas datos curiosos sobre mi, Jose Horacio</p>
+    <p>Espero y sea valido de cierta forma</p>
+    <br>
+    <br>
+    <h2>hobbies</h2>
+    <p>Mis hobies principales, son el dibujo y los videojuegos, le tiendo a dedicar como minimo 5 minutos diarios a el dibujo <br>
+    y como maximo , alrededor de unas ocho horas, el timepo tiende a irse volando cuando me divierto dibujando</p>
+    <p>Planeao subir algunos de mis dibujos en esta parte de la pagina , veamos si se hace el display correcto de las imagenes.</p>
+    <h4>Mis dibujos</h4>
+    <img src="samurai.png" alt="Dibujo numero 1" class="izder">
+    <img src="nedaron dude.png" alt="dibujo numero 2" class="izder">
+    <img src="morra acabado.png" alt="Dibujo numero 3" class="izder">
+    <br>
+    <br>
+      <p>que horas son te has de estar preguntando?</p>
+      <button onclick="ponerfecha()">oprime para saber la hora!</button>
+      <script>
+        function ponerfecha() {
+          document.getElementById("prueba").innerHTML = Date();
+        }
+        </script>
+        
+        <p id="prueba"></p>
+    <h3>Mis Videojuegos favoritos</h3>
+    <p>Si tuviera que hacer una lsita de top 10 juegos que eh llegado a jugar , junto a una descripcion pequeña de el mismo juego esta seria.</p>
+    <ol>
+        <li><h3>Metal Gear Solid 3 HD remake</h3></li>
+        <p>Este fue el primer juego con el cual me interese profundamente en su historia, una pequeña descripcion de este juego con mis propias palabras <br>
+        seria de la siguiente manera: <br> 
+        Juegas como el personaje Naked Snake , llamado Jack por su mentora The boss, la primera mision que tuvo, fue la mision virtuosa, la cual trataba de salvar a un cientifico <br>
+        amigo del director de la operacion, Major Tom, todo se va de mal a peor cuando The Boss la mentora, deserta de la operacion y ayuda directamente a los enemigos.</p>
+        <li><h3>King of fighters</h3></li>
+        <p>Mi juego de peleas favorito, un cast e personajes completamente divertida y altamente competitiva.</p>
+        <li><h3>Kingdom hearts Birth by sleep</h3></li>
+        <p>Una historia divertida y un gameplay magnifico</p>
+    </ol>
+
+    
+    <h2>Que puede hacher java script</h2>
+
+    <p>en este caso cambiamos los estados de atributos</p>
+
+    <button onclick="document.getElementById('myImage').src='kio_stance.gif'" >Pose Neutral</button>
+    
+    <img id="myImage" src="kio_stance.gif" class="uniform-image">
+
+    <button onclick="document.getElementById('myImage').src='kio_patada.gif'">Da una patada</button>
+
+    <button onclick="mostrarAlerta()">Llegaste al final, oprime el boton.</button>
+
+    <br>
+    <br>
+    <br>
+    <script>
+      function mostrarAlerta() {
+        alert("¡Muchas gracias por su atencion!");
+      }
+    </script>
+
+
+</body>
+
+<footer>
+    <p>Biografia de Jose Horacio 22/03/2023</p>
+  </footer>
